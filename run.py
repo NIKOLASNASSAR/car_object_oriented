@@ -1,12 +1,16 @@
 from car import Car
 from electric_car import ElectricCar
 
+print("start code")
+
 car1 = Car("Ka","Ford", 
            "Black", "2021")
 print(car1.mileage)
 car1.start()
 car1.drive(3)
 print(car1.mileage)
+
+print("FULEIRO")
 
 ele = ElectricCar("Suv","BYD", "Red", "2023", 1.5)
 # print(ele.mileage)
